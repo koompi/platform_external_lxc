@@ -1,0 +1,14 @@
+This is a fork of the Linux Containers (LXC) project for PIONUX OS.
+
+Modifications to LXC source code are kept to a bare minimum and are made with
+upstreaming in mind.
+
+Current modifications include:
+
+    1. Addition of recursive Android.mk files to integrate with AOSP build system
+    2. Addition of prebuilt files from intermediate Automake files (*.in):
+        - src/config.h
+        - src/lxc/version.h
+
+For more info on LXC, please see the README and the LXC project website
+https://linuxcontainers.org/lxc/.
